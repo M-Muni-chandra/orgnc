@@ -1,0 +1,306 @@
+.captain-page {
+  display: flex;
+  min-height: 100vh;
+  background: #f5f7fb;
+  color: #172033;
+  font-family: Arial, sans-serif;
+}
+
+.captain-sidebar {
+  width: 250px;
+  background: #111827;
+  color: white;
+  padding: 28px 18px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.captain-brand {
+  padding: 0 12px 35px;
+}
+
+.captain-brand h2 {
+  font-size: 27px;
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+.captain-brand span {
+  font-size: 10px;
+  color: #9ca3af;
+  letter-spacing: 4px;
+}
+
+.captain-sidebar nav {
+  flex: 1;
+}
+
+.captain-nav-title {
+  font-size: 10px;
+  color: #788397;
+  font-weight: bold;
+  letter-spacing: 1.3px;
+  margin: 25px 12px 12px;
+}
+
+.captain-sidebar nav a {
+  display: block;
+  padding: 12px;
+  margin-bottom: 5px;
+  border-radius: 7px;
+  color: #cbd5e1;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.captain-sidebar nav a:hover,
+.captain-sidebar nav a.active {
+  background: #273449;
+  color: white;
+}
+
+.captain-sidebar nav a.active {
+  border-left: 3px solid #c6a75e;
+}
+
+.captain-profile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-top: 1px solid #374151;
+  padding: 20px 5px 0;
+}
+
+.captain-avatar {
+  background: #c6a75e;
+  color: #111827;
+  border-radius: 50%;
+  padding: 11px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.captain-profile strong,
+.captain-profile small {
+  display: block;
+  font-size: 12px;
+}
+
+.captain-profile small {
+  color: #9ca3af;
+  margin-top: 4px;
+}
+
+.captain-main {
+  flex: 1;
+  padding: 35px;
+  min-width: 0;
+}
+
+.captain-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.captain-header p {
+  font-size: 11px;
+  color: #8b95a7;
+  letter-spacing: 1px;
+}
+
+.captain-header h1 {
+  font-size: 27px;
+  margin: 8px 0;
+}
+
+.captain-status {
+  background: #e5f7ed;
+  color: #15803d;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.captain-status span {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background: #16a34a;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+.captain-welcome {
+  background: #172033;
+  color: white;
+  border-radius: 13px;
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.captain-welcome p:first-child {
+  color: #c6a75e;
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+
+.captain-welcome h2 {
+  font-size: 25px;
+  margin: 12px 0;
+}
+
+.captain-welcome p:last-child {
+  color: #cbd5e1;
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.captain-welcome-icon {
+  font-size: 75px;
+  color: #c6a75e;
+  padding: 0 25px;
+}
+
+.captain-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  margin-bottom: 25px;
+}
+
+.captain-stat-card,
+.captain-panel {
+  background: white;
+  border: 1px solid #e8ebf1;
+  border-radius: 11px;
+  padding: 22px;
+}
+
+.captain-stat-card span {
+  color: #687386;
+  font-size: 12px;
+}
+
+.captain-stat-card h2 {
+  font-size: 28px;
+  margin: 15px 0 8px;
+}
+
+.captain-stat-card small {
+  color: #9ca3af;
+  font-size: 11px;
+}
+
+.captain-content {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 20px;
+}
+
+.captain-panel-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.captain-panel-heading h3 {
+  font-size: 16px;
+}
+
+.captain-panel-heading span {
+  font-size: 11px;
+  color: #9ca3af;
+}
+
+.captain-actions {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 13px;
+}
+
+.captain-actions button {
+  padding: 17px;
+  background: #f5f7fb;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 12px;
+  color: #273449;
+}
+
+.captain-actions button:hover {
+  background: #172033;
+  color: white;
+}
+
+.captain-info p {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #f0f1f4;
+  font-size: 12px;
+  color: #687386;
+}
+
+.captain-info strong {
+  color: #273449;
+}
+
+.captain-info .captain-available {
+  color: #16a34a;
+}
+
+.captain-footer {
+  text-align: center;
+  margin-top: 35px;
+  font-size: 11px;
+  color: #9ca3af;
+}
+
+@media (max-width: 1000px) {
+  .captain-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .captain-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 650px) {
+  .captain-page {
+    flex-direction: column;
+  }
+
+  .captain-sidebar {
+    width: auto;
+  }
+
+  .captain-main {
+    padding: 20px;
+  }
+
+  .captain-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .captain-welcome {
+    padding: 22px;
+  }
+
+  .captain-welcome-icon {
+    display: none;
+  }
+
+  .captain-header {
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
