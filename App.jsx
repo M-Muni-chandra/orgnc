@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router-dom";
 
-import Home from "./pages/Home";
-import Admin from "./pages/Admin";
-import Inventory from "./pages/Inventory";
-import Customer from "./pages/Customer";
-import Captain from "./pages/Captain";
+import Home from "./Home.jsx";
+import Admin from "./Admin.jsx";
+import Inventory from "./Inventory.jsx";
+import Customer from "./Customer.jsx";
+import Captain from "./Captain.jsx";
 
 function App() {
   return (
